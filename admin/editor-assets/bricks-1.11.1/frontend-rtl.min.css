@@ -1,0 +1,198 @@
+body .is-root-container {
+    unicode-bidi:embed
+}
+body .is-root-container,.gbrx-edit-block body input[type=tel] {
+    direction:rtl
+}
+.gbrx-edit-block .prettyprint li.L0,.gbrx-edit-block .prettyprint li.L1,.gbrx-edit-block .prettyprint li.L2,.gbrx-edit-block .prettyprint li.L3,.gbrx-edit-block .prettyprint li.L4,.gbrx-edit-block .prettyprint li.L5,.gbrx-edit-block .prettyprint li.L6,.gbrx-edit-block .prettyprint li.L7,.gbrx-edit-block .prettyprint li.L8,.gbrx-edit-block .prettyprint li.L9,.gbrx-edit-block .prettyprint.github li.L0,.gbrx-edit-block .prettyprint.github li.L1,.gbrx-edit-block .prettyprint.github li.L2,.gbrx-edit-block .prettyprint.github li.L3,.gbrx-edit-block .prettyprint.github li.L4,.gbrx-edit-block .prettyprint.github li.L5,.gbrx-edit-block .prettyprint.github li.L6,.gbrx-edit-block .prettyprint.github li.L7,.gbrx-edit-block .prettyprint.github li.L8,.gbrx-edit-block .prettyprint.github li.L9,.gbrx-edit-block .prettyprint.tomorrow li.L0,.gbrx-edit-block .prettyprint.tomorrow li.L1,.gbrx-edit-block .prettyprint.tomorrow li.L2,.gbrx-edit-block .prettyprint.tomorrow li.L3,.gbrx-edit-block .prettyprint.tomorrow li.L4,.gbrx-edit-block .prettyprint.tomorrow li.L5,.gbrx-edit-block .prettyprint.tomorrow li.L6,.gbrx-edit-block .prettyprint.tomorrow li.L7,.gbrx-edit-block .prettyprint.tomorrow li.L8,.gbrx-edit-block .prettyprint.tomorrow li.L9,.gbrx-edit-block .prettyprint.tomorrow-night li.L0,.gbrx-edit-block .prettyprint.tomorrow-night li.L1,.gbrx-edit-block .prettyprint.tomorrow-night li.L2,.gbrx-edit-block .prettyprint.tomorrow-night li.L3,.gbrx-edit-block .prettyprint.tomorrow-night li.L4,.gbrx-edit-block .prettyprint.tomorrow-night li.L5,.gbrx-edit-block .prettyprint.tomorrow-night li.L6,.gbrx-edit-block .prettyprint.tomorrow-night li.L7,.gbrx-edit-block .prettyprint.tomorrow-night li.L8,.gbrx-edit-block .prettyprint.tomorrow-night li.L9,.gbrx-edit-block .prettyprint.tranquil-heart li.L0,.gbrx-edit-block .prettyprint.tranquil-heart li.L1,.gbrx-edit-block .prettyprint.tranquil-heart li.L2,.gbrx-edit-block .prettyprint.tranquil-heart li.L3,.gbrx-edit-block .prettyprint.tranquil-heart li.L4,.gbrx-edit-block .prettyprint.tranquil-heart li.L5,.gbrx-edit-block .prettyprint.tranquil-heart li.L6,.gbrx-edit-block .prettyprint.tranquil-heart li.L7,.gbrx-edit-block .prettyprint.tranquil-heart li.L8,.gbrx-edit-block .prettyprint.tranquil-heart li.L9 {
+    padding-left:0;padding-right:1em
+}
+.gbrx-edit-block .wp-caption.alignnone {
+    margin:5px 0 20px 20px
+}
+.gbrx-edit-block .screen-reader-text:focus {
+    left:auto;right:5px
+}
+.gbrx-edit-block #wp-calendar tfoot {
+    opacity:.5
+}
+.gbrx-edit-block #wp-calendar tfoot #prev {
+    text-align:right
+}
+.gbrx-edit-block #wp-calendar tfoot #next {
+    text-align:left
+}
+.gbrx-edit-block blockquote {
+    border-left-style:none;border-left-width:0;border-right-style:solid;border-right-width:4px;padding:0 30px 0 0
+}
+.gbrx-edit-block select {
+    background-position:16px calc(50% + 2px),20px calc(50% + 2px)
+}
+.gbrx-edit-block .flatpickr-calendar .hasWeeks .dayContainer {
+    border-left:none;border-right:0
+}
+.gbrx-edit-block .flatpickr-calendar:after,.gbrx-edit-block .flatpickr-calendar:before {
+    left:auto;right:22px
+}
+.gbrx-edit-block .flatpickr-calendar.rightMost:after,.gbrx-edit-block .flatpickr-calendar.rightMost:before {
+    left:22px;right:auto
+}
+.gbrx-edit-block .flatpickr-next-month.flatpickr-prev-month,.gbrx-edit-block .flatpickr-prev-month.flatpickr-prev-month {
+    left:auto!important;right:0;transform:rotate(180deg)
+}
+.gbrx-edit-block .flatpickr-next-month.flatpickr-next-month,.gbrx-edit-block .flatpickr-prev-month.flatpickr-next-month {
+    left:0;right:auto!important;transform:rotate(180deg)
+}
+.gbrx-edit-block .numInputWrapper span {
+    left:0;padding:0 2px 0 4px
+}
+.gbrx-edit-block .flatpickr-current-month {
+    left:auto;right:12.5%
+}
+.gbrx-edit-block .flatpickr-current-month span.cur-month {
+    margin-left:0;margin-right:.5ch
+}
+.gbrx-edit-block .flatpickr-current-month .numInputWrapper {
+    margin-left:0;margin-right:10px
+}
+.gbrx-edit-block .dayContainer {
+    text-align:right
+}
+.gbrx-edit-block .flatpickr-day.endRange.startRange,.gbrx-edit-block .flatpickr-day.selected.startRange,.gbrx-edit-block .flatpickr-day.startRange.startRange {
+    border-radius:50px 50px 0 0
+}
+.gbrx-edit-block .flatpickr-day.endRange.endRange,.gbrx-edit-block .flatpickr-day.selected.endRange,.gbrx-edit-block .flatpickr-day.startRange.endRange {
+    border-radius:0 0 50px 50px
+}
+.gbrx-edit-block .flatpickr-time .flatpickr-am-pm,.gbrx-edit-block .flatpickr-time .flatpickr-time-separator,.gbrx-edit-block .flatpickr-time .numInputWrapper,.gbrx-edit-block .flatpickr-weekwrapper {
+    float:right
+}
+.gbrx-edit-block .numInputWrapper span {
+    left:-7px;right:auto
+}
+.gbrx-edit-block .bricks-logo-animated .cube {
+    float:right
+}
+.gbrx-edit-block .bricks-logo-animated .cube:before {
+    left:auto;right:0
+}
+.gbrx-edit-block .bricks-search-form .bricks-search-submit {
+    left:0;right:auto
+}
+.gbrx-edit-block .swiper-container-vertical>.swiper-pagination-bullets {
+    left:10px;right:auto
+}
+.gbrx-edit-block .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    left:auto;right:0;transform-origin:right top
+}
+.gbrx-edit-block .swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    transform-origin:left top
+}
+.gbrx-edit-block .swiper-container-horizontal>.swiper-pagination-progressbar,.gbrx-edit-block .swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.gbrx-edit-block .swiper-container-vertical>.swiper-pagination-progressbar,.gbrx-edit-block .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,.gbrx-edit-block .swiper-scrollbar-drag {
+    left:auto;right:0
+}
+.gbrx-edit-block .swiper-container-horizontal>.swiper-scrollbar {
+    left:auto;right:1%
+}
+.gbrx-edit-block .swiper-container-vertical>.swiper-scrollbar {
+    left:3px;right:auto
+}
+.gbrx-edit-block .swiper-lazy-preloader {
+    margin-left:0;margin-right:-21px
+}
+.gbrx-edit-block .bricks-swiper-container .swiper-notification,.gbrx-edit-block .swiper-container-cube .swiper-cube-shadow {
+    left:auto;right:0
+}
+body .is-root-container {
+    left:0;right:auto
+}
+.gbrx-edit-block #bricks-one-page-navigation {
+    left:30px;right:auto
+}
+.gbrx-edit-block .brxe-alert .close {
+    left:15px;right:auto
+}
+.gbrx-edit-block .mejs-container .mejs-controls .mejs-button>button {
+    margin-left:auto;margin-right:0
+}
+.gbrx-edit-block .mejs-container .mejs-controls .mejs-time-rail .mejs-time-handle-content {
+    left:auto;right:-8px
+}
+.gbrx-edit-block .brxe-form .options-wrapper input,.gbrx-edit-block .brxe-form .options-wrapper label {
+    margin:0 0 0 5px
+}
+.gbrx-edit-block .brxe-list .title {
+    margin:0 0 0 10px
+}
+.gbrx-edit-block .brxe-list .meta {
+    margin-left:0;margin-right:10px
+}
+.gbrx-edit-block .brxe-map .infoBox {
+    box-shadow:-4px 4px 4px rgba(0,0,0,.2)
+}
+.gbrx-edit-block .brxe-map .infoBox .title {
+    padding-left:30px;padding-right:0
+}
+.gbrx-edit-block .brxe-map .infoBox .close {
+    left:10px;right:auto
+}
+.gbrx-edit-block .bricks-pagination .next,.gbrx-edit-block .bricks-pagination .prev {
+    transform:scaleX(-1)
+}
+.gbrx-edit-block .brxe-pricing-table .pricing-table:not(:last-child),.gbrx-edit-block .brxe-pricing-tables .pricing-table:not(:last-child) {
+    margin-left:30px;margin-right:0
+}
+.gbrx-edit-block .brxe-pricing-table .pricing-table-original-price,.gbrx-edit-block .brxe-pricing-tables .pricing-table-original-price {
+    margin-left:10px;margin-right:0
+}
+.gbrx-edit-block .brxe-progress-bar .bar span {
+    left:auto;right:0
+}
+.gbrx-edit-block .brxe-posts .bricks-layout-item .content-wrapper.left,.gbrx-edit-block .brxe-posts .bricks-layout-item .overlay-wrapper.left {
+    align-items:flex-end
+}
+.gbrx-edit-block .brxe-posts .bricks-layout-item .content-wrapper.right,.gbrx-edit-block .brxe-posts .bricks-layout-item .overlay-wrapper.right {
+    align-items:flex-start
+}
+.gbrx-edit-block .brxe-text ol,.gbrx-edit-block .brxe-text ul {
+    padding-left:0;padding-right:1.1em
+}
+.gbrx-edit-block .brxe-wordpress .bricks-widget-wrapper i {
+    margin-left:10px;margin-right:0
+}
+.gbrx-edit-block .brxe-wordpress.posts img {
+    margin-left:15px;margin-right:0
+}
+.gbrx-edit-block .brxe-post-comments .comment-list.no-avatar .children {
+    margin-left:0;margin-right:60px;padding-left:auto;padding-right:0
+}
+.gbrx-edit-block .brxe-post-comments .children {
+    margin-left:0;margin-right:60px;padding-left:0;padding-right:30px
+}
+.gbrx-edit-block .brxe-post-comments .comment-avatar .administrator-badge {
+    left:-2px;right:0
+}
+.gbrx-edit-block .brxe-post-comments .comment-meta .comment-reply-link[class] {
+    left:0;right:auto
+}
+.gbrx-edit-block .single .layout-default .bricks-layout-wrapper {
+    margin-left:-30px;margin-right:0
+}
+.gbrx-edit-block .single .layout-default .bricks-layout-item {
+    padding-left:30px;padding-right:0
+}
+.gbrx-edit-block .brxe-post-navigation .swiper-button[class] {
+    transform:scaleX(-1)
+}
+.gbrx-edit-block .brxe-dropdown .brxe-dropdown .brx-dropdown-content {
+    left:auto;right:100%
+}
+.gbrx-edit-block :where(.brxe-nav-menu) .bricks-nav-menu .sub-menu .sub-menu {
+    left:auto;right:100%
+}
+.gbrx-edit-block .brxe-filter-search .icon {
+    left:0;right:auto
+}
+.gbrx-edit-block .brxe-rating .icon-wrapper .overlay {
+    right:0
+}
