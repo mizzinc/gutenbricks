@@ -8,7 +8,7 @@
  * Plugin Name:       GutenBricks
  * Plugin URI:        https://gutenbricks.com
  * Description:       Bridging Bricks Builder and Gutenberg Editor for a better developer and client experience.
- * Version:           1.1.26.1
+ * Version:           1.1.26.1-mzn.1
  * Requires at least: 6.3
  * Tested up to:      6.5.5
  * Requires PHP:      7.0
@@ -45,7 +45,7 @@ define('GUTENBRICKS_UNIQUE_ID_CONNECTOR', '_');
 define('GUTENBRICKS_DEFAULT_PAGE_TEMPLATE_NAME', 'Default Page Template');
 define('GUTENBRICKS_NONCE', 'gutenbricks_nonce');
 
-if (GUTENBRICKS_VERSION === '1.1.26.1') {
+if (GUTENBRICKS_VERSION === '1.1.26.1' || GUTENBRICKS_VERSION === '1.1.26.1-mzn.1') {
   define('GUTENBRICKS_MODE', 'dev');
 }
 
