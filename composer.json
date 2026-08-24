@@ -1,0 +1,27 @@
+{
+    "extra": {
+        "mozart": {
+            "dep_namespace": "Gutenbricks\\Dependencies\\",
+            "dep_directory": "/includes/dependencies/",
+            "classmap_directory": "/includes/classes/dependencies/",
+            "packages": [
+                "sabberworm/php-css-parser"
+            ]
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "\"vendor/bin/mozart\" compose",
+            "composer dump-autoload"
+        ],
+        "post-update-cmd": [
+            "\"vendor/bin/mozart\" compose",
+            "composer dump-autoload"
+        ]
+    },
+    "autoload": {
+    "psr-4": {
+        "Gutenbricks\\Dependencies\\": "includes/dependencies/"
+    }
+}
+}

@@ -1,0 +1,29 @@
+{
+  "admin/editor.jsx": {
+    "file": "editor.js",
+    "name": "editor",
+    "src": "admin/editor.jsx",
+    "isEntry": true,
+    "css": [
+      "editor.css"
+    ]
+  },
+  "admin/gb-builder.jsx": {
+    "file": "gb-builder.js",
+    "name": "gb-builder",
+    "src": "admin/gb-builder.jsx",
+    "isEntry": true,
+    "css": [
+      "gb-builder.css"
+    ]
+  },
+  "admin/settings.jsx": {
+    "file": "settings.js",
+    "name": "settings",
+    "src": "admin/settings.jsx",
+    "isEntry": true,
+    "css": [
+      "settings.css"
+    ]
+  }
+}
