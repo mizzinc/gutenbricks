@@ -1,0 +1,41 @@
+## Related fix (lives in bricks-child-theme, not here)
+
+The WP 7.1 iframe patch in editor.js (see CHANGELOG.md) covers most CSS delivery,
+but ACSS's own editor stylesheets are handled separately via functions.php in
+bricks-child-theme, using enqueue_block_assets directly rather than the DOM-injection
+approach used here. 
+
+Drop the below into Child Theme or Code Snippets 
+
+/**
+ * Enqueue ACSS block editor styles into the iframe editor.
+ *
+ * Gutenbricks injects these into the parent document only,
+ * which fails for post types using the WP 6.9+ iframe editor.
+ */
+add_action( 'enqueue_block_assets', function () {
+    if ( ! is_admin() ) {
+        return;
+    }
+
+    $upload_dir = wp_get_upload_dir();
+    $base       = $upload_dir['baseurl'] . '/gutenbricks/automatic-css/';
+
+    if ( ! wp_style_is( 'gutenbricks-acss-css', 'enqueued' ) ) {
+        wp_enqueue_style(
+            'acss-block-editor-core',
+            $base . 'automatic.css',
+            [],
+            filemtime( $upload_dir['basedir'] . '/gutenbricks/automatic-css/automatic.css' )
+        );
+    }
+
+    if ( ! wp_style_is( 'gutenbricks-acss-bricks-css', 'enqueued' ) ) {
+        wp_enqueue_style(
+            'acss-block-editor-bricks',
+            $base . 'automatic-bricks.css',
+            [],
+            filemtime( $upload_dir['basedir'] . '/gutenbricks/automatic-css/automatic-bricks.css' )
+        );
+    }
+} );
