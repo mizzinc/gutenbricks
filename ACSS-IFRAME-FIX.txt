@@ -5,7 +5,9 @@ but ACSS's own editor stylesheets are handled separately via functions.php in
 bricks-child-theme, using enqueue_block_assets directly rather than the DOM-injection
 approach used here. 
 
-Drop the below into Child Theme or Code Snippets 
+Drop the below into Child Theme or Code Snippets
+
+ACSS Version 3.3.7
 
 /**
  * Enqueue ACSS block editor styles into the iframe editor.
