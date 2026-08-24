@@ -42,8 +42,8 @@ class Updater {
 	 * @return void
 	 */
 	public function run_plugin_hooks() {
-		add_filter( 'pre_set_site_transient_update_plugins', array( $this, 'check_plugin_update' ) );
-		add_filter( 'plugins_api', array( $this, 'plugins_api_filter' ), 10, 3 );
+		//add_filter( 'pre_set_site_transient_update_plugins', array( $this, 'check_plugin_update' ) );
+		//add_filter( 'plugins_api', array( $this, 'plugins_api_filter' ), 10, 3 );
 	}
 
 	/**
